@@ -1,0 +1,76 @@
+.fotter {
+}
+.fotter-layout {
+    background-color: #F6F7F8;
+    padding: 72px 0 28px 0;
+}
+.fotter__group {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotter__group div:nth-child(1) ul,
+.fotter__group div:nth-child(2) ul {
+    display: flex;
+    flex-direction: column;
+}
+.fotter__group div:nth-child(1) ul li a,
+.fotter__group div:nth-child(2) ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 24px;
+    color: #636B7B;
+}
+.fotter__group div h3,
+.fotter__group div:last-child  h3 {
+    margin-bottom: 24px;
+}
+.fotter__group div:last-child div ul {
+    display: flex;
+    flex-direction: row;
+}
+.fotter__group div:last-child>div:first-child>ul li>a {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 24px;
+}
+.fotter__group div:last-child>div>ul>li>a i {
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.fotter__group div:last-child>div>ul li:first-child a i{
+    color: #007aff;
+}
+.fotter__group div:last-child>div>ul li:nth-child(2) a i{
+    color: #ff3300;
+}
+.fotter__group div:last-child>div>ul li:nth-child(3) a i{
+    color: #148af8;
+}
+.fotter__group div:last-child>div>ul li:nth-child(4) a i,
+.fotter__group div:last-child>div>ul li:nth-child(4) a .phone-fotter{
+    color: #F15A25;
+}
+.fotter__group div:last-child>div>ul li:nth-child(4) a .phone-fotter{
+    display: inline-block;
+    margin-left: 6px;
+}
+.fotter__group div:last-child div:nth-child(2)>ul li{
+    width: 50px;
+    height: 34px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.fotter__group div:last-child div:nth-child(2)>ul li a img{
+    margin: auto;
+}
+.fotter__group div:last-child div:nth-child(2)>ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 34px;
+}

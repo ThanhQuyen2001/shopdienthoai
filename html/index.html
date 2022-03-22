@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../icon/fontawesome-free-6.1.0-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <header class="header__box">
+            <div class="header">
+                <div class="header__group">
+                    <h1 class="header__logo">
+                        <img src="https://stcv4.hnammobile.com/v7/images/logo.svg?v=5535" alt="logo" class="header__logo__img">
+                    </h1>
+                    <div class="header__search">
+                        <input type="text" class="header__search__input" placeholder="Tìm kiếm sản phẩm">
+                        <i class="fa-solid fa-magnifying-glass header__search__icon"></i>
+                    </div>
+                </div>
+                <div class="header__group">
+                    <div class="header__group__item">
+                        <h3>Sửa chữa & bảo hành</h3>
+                        <span>Hcare</span>
+                    </div>
+                    <div class="header__group__item">
+                        <h3>Thành viên</h3>
+                        <span>HNAM member</span>
+                    </div>
+                    <div class="header__group__item header__group--address">
+                        <h3>Xem địa chỉ</h3>
+                        <span>
+                            13 chi nhánh
+                            <i class="fa-solid fa-chevron-right arrow__right"></i>
+                        </span>
+                        <i class="header__group__icon"></i>
+                    </div>
+                    <div class="header__group__item header__group--phone">
+                        <h3>Tổng đài (8:00-22:00)</h3>
+                        <span>1800.6878(Mua hàng/Khiếu nại)</span>
+                        <span>1900.6979(Bảo hành/Phần mềm)</span>
+                    </div>
+                    <div class="header__group__item header__group__cart">
+                        <h3>
+                            <i class="fa-solid fa-bag-shopping cart__icon"></i>
+                            <span>Giỏ hàng</span>
+                        </h3>
+                        <span class="cart__amount">0 sản phẩm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__search--mobile">
+                <input type="text" class="header__search__input" placeholder="Tìm kiếm sản phẩm">
+                <i class="fa-solid fa-magnifying-glass header__search__icon--mobile"></i>
+            </div>
+            <span class="toggle--mobile">
+                <i class="fa-solid fa-list"></i>
+            </span>
+        </header>
+    </section>
+    
+    <section>
+        <div class="category">
+            <ul class="category__list">
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/mobile.svg" alt="">
+                    <span>Điện thoại</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/tablet.svg" alt="">
+                    Tablet
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/laptop.svg" alt="">
+                    <span>Macbook & Laptop</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/watch.svg" alt="">
+                    <span>Smart Watch</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/phu-kien/icon/suckhoe.svg" alt=""> 
+                    <span>Sức khỏe</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/phu-kien/icon/loadidong.svg" alt="">
+                    <span>Loa</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/headphone.svg" alt="">
+                    <span>Phụ Kiện</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/maycu.svg" alt="">
+                    <span>Máy cũ</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/service.svg" alt="">
+                    <span>Dịch vụ</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/news.svg" alt="">
+                    <span>Tin tức</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/cat-icon/pay.svg" alt="">
+                    <span>Trả góp</span>
+                </a></li>
+                <li><a href="">
+                    <img src="https://stcv4.hnammobile.com/v7/images/icon/discount.svg" alt="">
+                    <span>Khuyến mãi</span>
+                </a></li>
+            </ul>
+        </div>
+    </section>
+    <section style="margin-top: 40px;">
+        <div class="slider">
+            <div class="slider__group">
+                <div class="image-slider">
+                    <div class="image-item"><img src="https://stcv4.hnammobile.com/uploads/optimized/banner/dat-ngay-reno7-sieu-hot-chi-voi-10-490-000d-1003849.png?v=1647488522" alt=""></div>
+                    <div class="image-item"><img src="https://stcv4.hnammobile.com/uploads/optimized/banner/dat-ngay-ban-phim-keychron-sang-tao-khong-gioi-han-1003864.png?v=1647513542" alt=""></div>
+                    <div class="image-item"><img src="https://stcv4.hnammobile.com/uploads/optimized/banner/dot-pha-bat-ngo-mi-11-gia-chi-4-089-000d-1003753.png?v=1646986682" alt=""></div>
+                </div>
+            </div>
+            <div class="slider-group">
+                <div><img src="https://stcv4.hnammobile.com/uploads/optimized/banner/y-te-2022-1003830.jpg?v=1645782662" alt=""></div>
+                <div><img src="https://stcv4.hnammobile.com/uploads/optimized/banner/pk-s22-1003833.jpg?v=1646106662" alt=""></div>
+                <div><img src="https://stcv4.hnammobile.com/uploads/optimized/banner/phu-kien-pisen-sieu-sale-t03-1003828.jpg?v=1645782482" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="phone">
+            <div class="phone__header">
+                <h3 class="phone__title">Điện thoại Samsung nổi bật</h3>
+                <ul class="phone__list">
+                    <li class="phone__item"><a href="">Samsung Galaxy Fold & Z Flip</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy Note</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy S</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy A & M</a></li>
+                </ul>
+            </div>
+            <div class="phone__content">
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/8379727342-samsung-galaxy-s22-ultra-5g-256gb-ram-8gb.jpg?v=164763145801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 Ultra 5G S908 256GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">33.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/7805498052-samsung-galaxy-s22-5g-128gb-ram-8gb.jpg?v=164763038801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 5G S901 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">21.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/2393915243-samsung-galaxy-s21-fe-5g-g990-128gb-ram-6gb.jpg?v=164763902501" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S21 FE 5G G990 128GB Ram 6GB</h3>
+                    <div class="phone__content__item__cost">13.799.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/4317409000-samsung-galaxy-z-flip3-5g.jpg?v=164763094201" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Flip3 5G F711 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">19.999.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/9718325339-samsung-galaxy-z-fold3-5g-512gb.jpg?v=164763565701" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Fold3 5G F926 512GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">38.099.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone__footer">
+                <a class="phone__more">Xem tất cả</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="phone">
+            <div class="phone__header">
+                <h3 class="phone__title">Điện thoại phone nổi bật</h3>
+                <ul class="phone__list">
+                    <li class="phone__item"><a href="">Samsung Galaxy Fold & Z Flip</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy Note</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy S</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy A & M</a></li>
+                </ul>
+            </div>
+            <div class="phone__content">
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/8379727342-samsung-galaxy-s22-ultra-5g-256gb-ram-8gb.jpg?v=164763145801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 Ultra 5G S908 256GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">33.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/7805498052-samsung-galaxy-s22-5g-128gb-ram-8gb.jpg?v=164763038801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 5G S901 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">21.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/2393915243-samsung-galaxy-s21-fe-5g-g990-128gb-ram-6gb.jpg?v=164763902501" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S21 FE 5G G990 128GB Ram 6GB</h3>
+                    <div class="phone__content__item__cost">13.799.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/4317409000-samsung-galaxy-z-flip3-5g.jpg?v=164763094201" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Flip3 5G F711 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">19.999.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/9718325339-samsung-galaxy-z-fold3-5g-512gb.jpg?v=164763565701" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Fold3 5G F926 512GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">38.099.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone__footer">
+                <a class="phone__more">Xem tất cả</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="phone">
+            <div class="phone__header">
+                <h3 class="phone__title">Điện thoại phone nổi bật</h3>
+                <ul class="phone__list">
+                    <li class="phone__item"><a href="">Samsung Galaxy Fold & Z Flip</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy Note</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy S</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy A & M</a></li>
+                </ul>
+            </div>
+            <div class="phone__content">
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/8379727342-samsung-galaxy-s22-ultra-5g-256gb-ram-8gb.jpg?v=164763145801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 Ultra 5G S908 256GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">33.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/7805498052-samsung-galaxy-s22-5g-128gb-ram-8gb.jpg?v=164763038801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 5G S901 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">21.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/2393915243-samsung-galaxy-s21-fe-5g-g990-128gb-ram-6gb.jpg?v=164763902501" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S21 FE 5G G990 128GB Ram 6GB</h3>
+                    <div class="phone__content__item__cost">13.799.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/4317409000-samsung-galaxy-z-flip3-5g.jpg?v=164763094201" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Flip3 5G F711 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">19.999.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/9718325339-samsung-galaxy-z-fold3-5g-512gb.jpg?v=164763565701" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Fold3 5G F926 512GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">38.099.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone__footer">
+                <a class="phone__more">Xem tất cả</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="phone">
+            <div class="phone__header">
+                <h3 class="phone__title">Điện thoại phone nổi bật</h3>
+                <ul class="phone__list">
+                    <li class="phone__item"><a href="">Samsung Galaxy Fold & Z Flip</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy Note</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy S</a></li>
+                    <li class="phone__item"><a href="">Samsung Galaxy A & M</a></li>
+                </ul>
+            </div>
+            <div class="phone__content">
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/8379727342-samsung-galaxy-s22-ultra-5g-256gb-ram-8gb.jpg?v=164763145801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 Ultra 5G S908 256GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">33.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/7805498052-samsung-galaxy-s22-5g-128gb-ram-8gb.jpg?v=164763038801" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S22 5G S901 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">21.990.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/2393915243-samsung-galaxy-s21-fe-5g-g990-128gb-ram-6gb.jpg?v=164763902501" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy S21 FE 5G G990 128GB Ram 6GB</h3>
+                    <div class="phone__content__item__cost">13.799.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/4317409000-samsung-galaxy-z-flip3-5g.jpg?v=164763094201" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Flip3 5G F711 128GB Ram 8GB</h3>
+                    <div class="phone__content__item__cost">19.999.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+                <div class="phone__content__item">
+                    <span class="label">Hotsale 18 - 31/8</span>
+                    <div class="phone__content__item__img">
+                        <img src="https://stcv4.hnammobile.com/new-uploads/products/thumbnails/9718325339-samsung-galaxy-z-fold3-5g-512gb.jpg?v=164763565701" alt="">
+                    </div>
+                    <h3 class="phone__content__item__name">Samsung Galaxy Z Fold3 5G F926 512GB Ram 12GB</h3>
+                    <div class="phone__content__item__cost">38.099.000</div>
+                    <div class="phone__content__item__star">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span>1 đánh giá</span>
+                    </div>
+                    <div class="phone__content__item__select">
+                        <a href="" class="buy-now">Mua ngay</a>
+                        <a href="" class="buy_late">Trả góp 0%</a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone__footer">
+                <a class="phone__more">Xem tất cả</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="fotter-layout">
+                <div class="fotter__group">
+                    <div>
+                        <h3>Hệ thống HnamMobile</h3>
+                        <ul>
+                            <li><a href="">Giới thiệu Hnammobile</a></li>
+                            <li><a href="">Trung tâm sửa chữa & bảo hành</a></li>
+                            <li><a href="">Trung tâm bảo hành chính hãng</a></li>
+                            <li><a href="">Hợp tác kinh doanh</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Hướng dẫn mua hàng</h3>
+                        <ul>
+                            <li><a href="">Hướng dẫn mua hàng online</a></li>
+                            <li><a href="">Hướng dẫn mua hàng trả góp</a></li>
+                            <li><a href="">Vận chuyển thanh toán</a></li>
+                            <li><a href="">Chính sách đổi trả & bào hành</a></li>
+                            <li><a href="">Điều khoản sử dụng</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Kết nối HnamMobile</h3>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-square"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-youtube"></i>
+                                        <span>Youtube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-youtube"></i>
+                                        <span>Zalo</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <span>Hotline</span>
+                                        <span class="phone-fotter">1800.6867</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Phương thức thanh toán</h3>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/master_card.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/visa.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/jcb.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/vnpay.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/pay_later.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/mpos.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/zalopay.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="https://stcv4.hnammobile.com/v7/images/icon/momo.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
